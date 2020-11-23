@@ -1,7 +1,6 @@
 <?php
-$uploaddir = ' ./uploads/';
+$uploaddir = './uploads/';
 $uploadfile = $uploaddir . basename($_FILES['fileToUpload']['name']);
-
 
 echo '<pre>';
 if (move_uploaded_file($_FILES['fileToUpload']['tmp_name'],$uploadfile)) {
@@ -15,5 +14,4 @@ if (move_uploaded_file($_FILES['fileToUpload']['tmp_name'],$uploadfile)) {
 	print_r($_FILES);
 	
 	print "</pre>";
-?>
-	
+	?>
