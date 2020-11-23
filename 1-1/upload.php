@@ -15,4 +15,3 @@ if (move_uploaded_file($_FILES['fileToUpload']['tmp_name'],$uploadfile)) {
 	
 	print "</pre>";
 	?>
- #출처 WEB HACKING 서버 침투 기법(유현수 지음)
